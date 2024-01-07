@@ -36,3 +36,8 @@ docker-compose up
 
 docker-compose down
 
+
+# Architecture Diagram:
+
+[https://github.com/varshahindupur09/Real-Time-Data-Processing-DE-Project/blob/main/architecture_diagram/arch_image.png]
+
