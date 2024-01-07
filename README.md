@@ -1,19 +1,38 @@
 # DataEngineering
 
+Realtime Data Streaming | End-to-End Data Engineering Project
 
-Confluence: (http://localhost:9021/clusters)
-![image](https://github.com/varshahindupur09/DataEngineering/assets/114629181/b6e74f8a-3825-49f4-9ef2-6c9d4881726f)
-
-
-# commands
-source myenv_de/bin/activate
-pip install --upgrade pip
+This project shows building an end-to-end data engineering pipeline. It covers each stage from data ingestion to processing and finally to storage, utilizing a robust tech stack that includes Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, and Cassandra. Everything is containerized using Docker for ease of deployment and scalability.
 
 
-![image](https://github.com/varshahindupur09/DataEngineering/assets/114629181/b5f8cbc1-af30-4e67-8fe9-b6282461a214)
+# Project Components:
 
+DATA SOURCE: Using randomuser.me API to generate random user data for DATA PIPELINE.
+Apache Airflow: Responsible for orchestrating the pipeline and storing fetched data in a PostgreSQL database.
+Apache Kafka and Zookeeper: Used for streaming data from PostgreSQL to the processing engine.
+Control Center and Schema Registry: Helps in monitoring and schema management of our Kafka streams.
+Apache Spark: For data processing with its master and worker nodes.
+Cassandra: Where the processed data will be stored.
 
-https://localhost:8080
-![image](https://github.com/varshahindupur09/Real-Time-Data-Processing-DE-Project/assets/114629181/23bf8239-004a-4581-9284-f845a1499acf)
+# Steps
+Setting up a data pipeline with Apache Airflow
+Real-time data streaming with Apache Kafka
+Distributed synchronization with Apache Zookeeper
+Data processing techniques with Apache Spark
+Data storage solutions with Cassandra and PostgreSQL
+Containerizing your entire data engineering setup with Docker
 
+Technologies: Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, Cassandra, PostgreSQL, Docker, Getting Started
+
+# Recommended steps to checkout the Project
+
+1. Clone the repository:
+
+git clone https://github.com/airscholar/e2e-data-engineering.git](https://github.com/varshahindupur09/Real-Time-Data-Processing-DE-Project.git
+
+2. Run Docker Compose to start services:
+
+docker-compose up
+
+docker-compose down
 
