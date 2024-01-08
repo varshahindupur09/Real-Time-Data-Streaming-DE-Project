@@ -7,7 +7,7 @@ This project shows building an end-to-end data engineering pipeline. It covers e
 
 # Project Components:
 
-DATA SOURCE: Using randomuser.me API to generate random user data for DATA PIPELINE.
+DATA SOURCE: Using **randomuser.me** API to generate random user data for DATA PIPELINE.
 Apache Airflow: Responsible for orchestrating the pipeline and storing fetched data in a PostgreSQL database.
 Apache Kafka and Zookeeper: Used for streaming data from PostgreSQL to the processing engine.
 Control Center and Schema Registry: Helps in monitoring and schema management of our Kafka streams.
@@ -22,13 +22,13 @@ Data processing techniques with Apache Spark
 Data storage solutions with Cassandra and PostgreSQL
 Containerizing your entire data engineering setup with Docker
 
-Technologies: Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, Cassandra, PostgreSQL, Docker, Getting Started
+Technologies: **Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, Cassandra, PostgreSQL, Docker**
 
 # Recommended steps to checkout the Project
 
 1. Clone the repository:
 
-git clone https://github.com/airscholar/e2e-data-engineering.git](https://github.com/varshahindupur09/Real-Time-Data-Processing-DE-Project.git
+    git clone https://github.com/airscholar/e2e-data-engineering.git](https://github.com/varshahindupur09/Real-Time-Data-Processing-DE-Project.git
 
 2. Run Docker Compose to start services:
 
